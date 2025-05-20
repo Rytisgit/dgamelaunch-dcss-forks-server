@@ -1,6 +1,6 @@
 services:
   dcss-server:
-    image: dcss-server:latest
+    image: dcss-server:develop2
     tty: true
     stdin_open: true
     build:
