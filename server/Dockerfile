@@ -50,7 +50,7 @@ ENV PATH="/usr/lib/ccache:$PATH"
 RUN ccache -F 0
 RUN ccache -M 0
 
-RUN git clone ${BRANCH:+-b $BRANCH} https://github.com/refracta/dcss-server /usr/src/dgamelaunch-config
+RUN git clone ${BRANCH:+-b $BRANCH} https://github.com/Rytisgit/dgamelaunch-dcss-forks-server /usr/src/dgamelaunch-config
 RUN git config --global --add safe.directory /usr/src/dgamelaunch-config
 RUN chown -R crawl-dev:crawl-dev /usr/src/dgamelaunch-config
 RUN git config --global --add safe.directory $DGL_CONF_HOME
