@@ -156,17 +156,6 @@ games = OrderedDict(trunk + stable_versions + forks)
 
 dgl_status_file = "%%CHROOT_WEBDIR%%/run/status"
 forks_milestones = [
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-dcssca/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-hellcrawl/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-gnollcrawl/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-bcrawl/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-bloatcrawl2/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-gooncrawl/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-xcrawl/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-stoatsoup/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-bcadrencrawl/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-kimchicrawl/saves/milestones",
-    "%%CHROOT_CRAWL_BASEDIR%%/crawl-addedcrawl/saves/milestones",
     "%%CHROOT_CRAWL_BASEDIR%%/crawl-dcst/saves/milestones"
 ]
 
@@ -181,7 +170,7 @@ trunk_milestones = [
     "%%CHROOT_CRAWL_GAMEDIR%%/saves/milestones-sprint",
     "%%CHROOT_CRAWL_GAMEDIR%%/saves/milestones-descent"
 ]
-milestone_file = [*forks_milestones, *version_milestones, *trunk_milestones]
+milestone_file = [*forks_milestones, *trunk_milestones]
 
 # Set to None not to read milestones
 
