@@ -98,20 +98,9 @@ mods = [
 ]
 
 forks_data = [
-    ("dcssca", {"name": "DCSS Circus Animals", "allowed_mods": ["Tutorial", "Sprint"]}),
-    ("hellcrawl", {"name": "HellCrawl", "allowed_mods": ["Tutorial", "Sprint"]}),
-    ("gnollcrawl", {"name": "GnollCrawl", "allowed_mods": ["Tutorial", "Sprint"]}),
-    ("bcrawl", {"name": "B-Crawl", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]}),
-    ("bloatcrawl2", {"name": "BloatCrawl 2", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]}),
-    ("gooncrawl", {"name": "GoonCrawl", "allowed_mods": ["Tutorial", "Sprint"]}),
-    ("xcrawl", {"name": "X-Crawl", "allowed_mods": ["Tutorial", "Sprint"]}),
-    ("stoatsoup", {"name": "Stoat Soup", "allowed_mods": ["Tutorial", "Sprint"]}),
-    ("bcadrencrawl", {"name": "BcadrenCrawl", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]}),
-    ("kimchicrawl", {"name": "KimchiCrawl", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]}),
-    ("addedcrawl", {"name": "AddedCrawl", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]}),
     ("dcst", {"name": "dcst", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]})
 ]
-variants = [fork[0] for fork in forks_data] + [f"0.{i}" for i in versions]
+variants = [fork[0] for fork in forks_data]
 
 trunk = [
     create_game(
