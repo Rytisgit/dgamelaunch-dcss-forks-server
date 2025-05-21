@@ -3,3 +3,4 @@
 logs/
 crawl-git-repository/
 server/data/ccache/
+server/data/
