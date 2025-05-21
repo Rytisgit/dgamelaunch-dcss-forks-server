@@ -10,7 +10,7 @@
 #command3="/home/crawl-dev/dgamelaunch-config/bin/dgl update-gcc bcadrencrawl bcadrencrawl/bCrawl >> /home/crawl-dev/logs/bcadrencrawl.log 2>&1"
 #schedule3="0 7 * * *"
 #
-command4="/home/crawl-dev/dgamelaunch-config/bin/dgl update-gcc bcrawl bcrawl/master >> /home/crawl-dev/logs/bcrawl.log 2>&1"
+command4="/home/crawl-dev/dgamelaunch-config/bin/dgl update-gcc dcst dcst/test >> /home/crawl-dev/logs/dcst.log 2>&1"
 schedule4="0 8 * * *"
 
 #command5="/home/crawl-dev/dgamelaunch-config/bin/dgl compress-ttyrecs"
