@@ -17,5 +17,5 @@ nohup cpulimit -e bzip2 -l 20 &
 
 dgl crawl-inotify-dglwhere
 
-#rm "$CHROOT_WEBDIR/run/webtiles.pid" #in case the container was stopped without cleaning up pid file in volume
-/etc/init.d/webtiles start
+rm "$CHROOT_WEBDIR/run/webtiles.pid" #in case the container was stopped without cleaning up pid file in volume
+/etc/init.d/webtiles restart

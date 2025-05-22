@@ -152,7 +152,7 @@ forks = [
 ]
 
 # Combine all game lists into one
-games = OrderedDict(trunk + stable_versions + forks)
+games = OrderedDict(trunk + forks)
 
 dgl_status_file = "%%CHROOT_WEBDIR%%/run/status"
 forks_milestones = [
