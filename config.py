@@ -99,6 +99,10 @@ mods = [
 
 forks_data = [
     ("dcst", {"name": "dcst", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]})
+    ("nostalgia", {"name": "Stone Soup Nostalgia", "allowed_mods": ["Tutorial", "Sprint", "Zot Defense"]})
+    ("yiufcrawl", {"name": "YiufCrawl", "allowed_mods": ["Tutorial", "Sprint"]})
+    ("oofcrawl", {"name": "OOFCrawl", "allowed_mods": ["Tutorial", "Sprint"]})
+    ("boggartcrawl", {"name": "BoggartCrawl", "allowed_mods": ["Tutorial", "Sprint"]})
 ]
 variants = [fork[0] for fork in forks_data]
 
@@ -157,6 +161,10 @@ games = OrderedDict(trunk + forks)
 dgl_status_file = "%%CHROOT_WEBDIR%%/run/status"
 forks_milestones = [
     "%%CHROOT_CRAWL_BASEDIR%%/crawl-dcst/saves/milestones"
+    "%%CHROOT_CRAWL_BASEDIR%%/crawl-nostalgia/saves/milestones"
+    "%%CHROOT_CRAWL_BASEDIR%%/crawl-yiufcrawl/saves/milestones"
+    "%%CHROOT_CRAWL_BASEDIR%%/crawl-oofcrawl/saves/milestones"
+    "%%CHROOT_CRAWL_BASEDIR%%/crawl-boggartcrawl/saves/milestones"
 ]
 
 version_milestones = [
