@@ -8,9 +8,9 @@ if [ -z "$CMD" ]; then
     dgl publish --confirm
 else
     "$SCRIPTS"/dgl/generate-conf.sh 
-    dgl create-versions-db  >> /home/crawl-dev/logs/entrypoint.log 2>&1
-    dgl create-crawl-gamedir  >> /home/crawl-dev/logs/entrypoint.log 2>&1
-    dgl publish --confirm  >> /home/crawl-dev/logs/entrypoint.log 2>&1
+    dgl create-versions-db 
+    dgl create-crawl-gamedir
+    dgl publish --confirm
     echo
     eval "$CMD"
     exit 0
