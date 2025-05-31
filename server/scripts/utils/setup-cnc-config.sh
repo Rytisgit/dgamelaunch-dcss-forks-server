@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source "$DGL_CONF_HOME/dgl-manage.conf"
-sed -i 's|games = OrderedDict(trunk + stable_versions + forks)|games = OrderedDict(trunk + forks)' "$DGL_CONF_HOME/config.py"
+sed -i 's|games = OrderedDict(trunk + stable_versions + forks)|games = OrderedDict(trunk + forks)|g' "$DGL_CONF_HOME/config.py"
 sed -i 's|CONFIG_MORGUE_URL|http://164.92.176.162:8081/morgue/%n/|g' "$DGL_CONF_HOME/config.py"
 sed -i 's|CONFIG_SERVER_ID|discount forks|g' "$DGL_CONF_HOME/config.py"
 sed -i 's|CONFIG_DGL_SERVER|discount forks|g' "$DGL_CONF_HOME/dgl-manage.conf"
