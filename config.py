@@ -98,10 +98,10 @@ mods = [
 ]
 
 forks_data = [
-    ("dcst", {"name": "dcst", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]})
-    ("nostalgia", {"name": "Stone Soup Nostalgia", "allowed_mods": ["Tutorial", "Sprint", "Zot Defense"]})
-    ("yiufcrawl", {"name": "YiufCrawl", "allowed_mods": ["Tutorial", "Sprint"]})
-    ("oofcrawl", {"name": "OOFCrawl", "allowed_mods": ["Tutorial", "Sprint"]})
+    ("dcst", {"name": "dcst", "allowed_mods": ["Tutorial", "Sprint", "Seeded"]}),
+    ("nostalgia", {"name": "Stone Soup Nostalgia", "allowed_mods": ["Tutorial", "Sprint", "Zot Defense"]}),
+    ("yiufcrawl", {"name": "YiufCrawl", "allowed_mods": ["Tutorial", "Sprint"]}),
+    ("oofcrawl", {"name": "OOFCrawl", "allowed_mods": ["Tutorial", "Sprint"]}),
     ("boggartcrawl", {"name": "BoggartCrawl", "allowed_mods": ["Tutorial", "Sprint"]})
 ]
 variants = [fork[0] for fork in forks_data]
