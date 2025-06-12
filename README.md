@@ -1,5 +1,7 @@
 # Docker Server Usage Guide
 
+# Don't use this anymore - Refracta has based his branch on this initial dockerisation and made it nicer here: https://github.com/refracta/dcss-server
+
 These scripts have been dockerised, with volumes to store permanent data, to allow for ease of deployment along with a very simple azure template to host the docker container on a vm.
 
 ### First Run Guide:
